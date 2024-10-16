@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Portafolio Yair Gomez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--SECCION INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>SoraXBlader</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#contacto"  onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="https://youtu.be/ot4RMXOWM1c?si=d7udiAD8G00sgTMM" target="_blank" onclick="seleccionar(this)">REEL</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <!--Iconos Menu Responsivo-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--Iconos RRSS-->
+                    <div class="redes">
+                        <a href="https://www.youtube.com/@gabrielyairgomezgarcia2169" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://mx.linkedin.com/in/yair-g%C3%B3mez-garc%C3%ADa-4193595a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.imdb.com/name/nm7269312/?ref_=nv_sr_srsg_0_tt_1_nm_7_in_0_q_Yair%2520Gomez" target="_blank"><i class="fa-brands fa-imdb"></i></a>
+                    </div>
+                </div>
+            </header>
+                <div class="presentacion">
+                    <p class="bienvenida">
+                        Bienvenidos
+                    </p>
+                    <h2>Soy <span>Yair Gómez</span>, Diseñador Multimedia</h2>
+                    <p class="descripcion">
+                        Soy un profesional creativo y apasionado por la animación y la postproducción.
+                        Me encanta transformar ideas en experiencias visuales que impacten.
+                        Me considero una persona enfocada en el detalle, resolutiva bajo presión y 
+                        con habilidades de liderazgo para guiar equipos hacia resultados sorprendentes y eficientes.
+                    </p>
+                    <a href="#portafolio">Ir a Portafolio</a>
+                </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Yair Gómez</span></h2>
+            <h3>Diseñador Multimedia</h3>
+            <p>¡Hola! Soy un Diseñador Multimedia con amplia experiencia en Motion Graphics, edición de video,
+                y un toque de magia en VFX y diseño gráfico (lo básico, pero suficiente para impresionar).
+                También tengo algo de habilidad en Front End, porque, bueno, a veces hay que hacerle a todo.
+            </p>
+            <p>
+                He tenido el placer de colaborar con marcas como Coca Cola, Totalplay, Planeta de Libros, Dickies y DISH,
+                donde además me he encargado de dirigir equipos de postproducción y motion con un estilo que va entre un líder creativo y un coordinador ninja.
+                ¡Vamos, lo mío es darle vida a las ideas!
+            </p>
+            <a href="descargar/cv_yair_2024.pdf" download="cv_yair_2024.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+     <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila"> <!-- Fila Superior -->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-photo-film"></i></span>
+                <h4>Motion Graphics</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Motion</li>
+                    <li>Edición</li>
+                    <li>Post</li>
+                </ul>
+                <p>¡Es como darles superpoderes a los gráficos para que puedan moverse y
+                    comunicar de forma más dinámica y divertida!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-video"></i></span>
+                <h4>Postproducción</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Motion</li>
+                    <li>Edición</li>
+                    <li>Post</li>
+                </ul>
+                <p>En este proceso, se eliminan los "villanos" (errores y tomas no deseadas),
+                    se añaden superpoderes visuales (efectos especiales) y se crean atmósferas
+                    épicas con una banda sonora digna de un gran enfrentamiento.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-film"></i></span>
+                <h4>Edición de video</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Motion</li>
+                    <li>Edición</li>
+                    <li>Post</li>
+                </ul>
+                <p>La edición de video es como la kryptonita de los superhéroes visuales:
+                    transforma tomas crudas en relatos épicos que capturan la atención y el corazón del público.</p>
+            </div>
+        </div>
+
+        <div class="fila"> <!-- Fila Inferior -->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <h4>Diseño</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Motion</li>
+                    <li>Edición</li>
+                    <li>Post</li>
+                </ul>
+                <p>Imagina tener la capacidad de transformar
+                    ideas en imágenes impactantes que pueden comunicar mensajes,</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-file-code"></i></span>
+                <h4>Diseño WEB</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Motion</li>
+                    <li>Edición</li>
+                    <li>Post</li>
+                </ul>
+                <p>Superpoderes HTML y CSS que transforman ideas en páginas web épicas y funcionales. ¡Asombroso!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-photo-film"></i></span>
+                <h4>Motion Graphics</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Motion</li>
+                    <li>Edición</li>
+                    <li>Post</li>
+                </ul>
+                <p>¡Es como darles superpoderes a los gráficos para que puedan moverse y
+                    comunicar de forma más dinámica y divertida!</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCION HABILIDADES -->
+      <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">Motion</span></p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="mg" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">Edición</span></p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="ed" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">VFX & Post</span></p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="vfx" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">HTML & CSS</span></p>
+                <span class="porcentaje">10%</span>
+            </div>
+            <div class="barra">
+                <div id="web" class="barra-progreso4"></div>
+            </div>
+        </div>
+      </div>
+    
+      <!-- SECCION PORTAFOLIO -->
+       <section id="portafolio">
+            <h3 class="titulo-seccion">Mis Proyectos</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <a href="https://www.youtube.com/watch?v=poE4SXjkPtE" target="_blank"><img src="img/Totalplay.png" alt=""></a>
+                    <div class="info">
+                        <h4>El Internet de los campeones</h4>
+                        <p>Edición y Motion Graphics</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://vimeo.com/388040109" target="_blank"><img src="img/Funkit.png" alt=""></a>
+                    <div class="info">
+                        <h4>Funkit</h4>
+                        <p>Edición, VFX y Motion Graphics</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://www.youtube.com/watch?v=zhCHrD4usp0&list=PL3_adtnV4kZVniWCZ-5tU8yZDJjR3QSgE&index=2" target="_blank">
+                        <img src="img/JrNBA.png" alt="" ></a>
+                    <div class="info">
+                        <h4>Jr NBA Presentado por:</h4>
+                        <p>Motion Graphics</p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="fila">
+                <div class="proyecto">
+                    <a href="https://www.youtube.com/watch?v=1NS4ygRi8Y8" target="_blank"><img src="img/Totalplay paco de Miguekl.png" alt=""></a>
+                    <div class="info">
+                        <h4>Luis Miguel la Serie</h4>
+                        <p>Edición y Motion Graphics</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://vimeo.com/428793764" target="_blank" ><img src="img/Zoo+.png" alt=""></a>
+                    <div class="info">
+                        <h4>Zoo</h4>
+                        <p>Animación y Motion Graphics</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://vimeo.com/118084941" target="_blank"><img src="img/Ciencia Chida.png" alt=""></a>
+                    <div class="info">
+                        <h4>Ciencia Chida</h4>
+                        <p>Animación</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="proyecto">
+                    <a href="https://www.youtube.com/watch?v=MHqQb7WVotQ" target="_blank"><img src="img/IncreiblesJakks.png" alt=""></a>
+                    <div class="info">
+                        <h4>Los Increibles 2 de JAKK's</h4>
+                        <p>Supervisor de VFX y Motion Graphics</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://www.youtube.com/watch?v=a9Mi0_Bcdfo" target="_blank"><img src="img/PLaneta.png" alt=""></a>
+                    <div class="info">
+                        <h4>Book Trailers Planeta</h4>
+                        <p>Edición y Motion Graphics</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/Totalplay.png" alt="">
+                    <div class="info">
+                        <h4>Encriptador y Desencritador</h4>
+                        <p>HTML, CSS y JS</p>
+                    </div>
+                </div>
+            </div>                            
+        </section>  
+        
+    <!-- SECCION CONTACTO -->
+     <section id="contacto">
+        <h3 class="titulo-seccion">Contáctame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">  
+                </div>
+                
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+     </section>
+
+     <!-- SECCION FOOTER -->
+      <footer>
+        <p>Todos los derechos reservados - 2024</p> 
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-imdb"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
